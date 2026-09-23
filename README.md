@@ -4,6 +4,12 @@ An editable, static origami-style character model. The character faces -Y with Z
 
 ![Front view](renders/crimson_chibi_front.png)
 
+## Modeling references
+
+| Front | Rear |
+| :---: | :---: |
+| ![Front modeling reference](references/reference_front.png) | ![Rear modeling reference](references/reference_rear.png) |
+
 ## Download and edit
 
 - Open `crimson_chibi.blend` in Blender to edit the source model.
