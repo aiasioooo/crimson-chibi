@@ -2,7 +2,11 @@
 
 An editable, static origami-style character model. The character faces -Y with Z up. It has a blank face and no rig.
 
-![Front view](renders/crimson_chibi_front.png)
+## Model previews
+
+| Front | Back |
+| :---: | :---: |
+| ![Front view of Crimson Chibi](renders/crimson_chibi_front.png) | ![Back view of Crimson Chibi](renders/crimson_chibi_back.png) |
 
 ## Modeling references
 
@@ -23,11 +27,11 @@ The Blender file contains a `CRIMSON • character root` with twelve `PART` cont
 
 1. Edit and save `crimson_chibi.blend`.
 2. From the repository root, run `blender -b crimson_chibi.blend --python-exit-code 1 --python scripts/export.py` (or replace `blender` with the path to your Blender executable). This refreshes the full and component GLBs.
-3. Run `blender -b crimson_chibi.blend --python-exit-code 1 --python scripts/render_preview.py` to refresh the front preview, then update `CHANGELOG.md`.
+3. Refresh the front and back pictures in `renders/` when the model changes. `blender -b crimson_chibi.blend --python-exit-code 1 --python scripts/render_preview.py` can generate a new front render. Update `CHANGELOG.md`.
 4. Commit the changed source and exports. Tag a release such as `v1.0.1` and attach the `.blend` and `.glb` files to a GitHub Release.
 
 This repository starts with the existing V04 Blender scene. The export script updates the component list alongside the GLBs.
 
 ## License
 
-The model, modeling references, component exports, and preview render are licensed under [Creative Commons Attribution 4.0 International](LICENSE.md). Credit the project as **Crimson Chibi** and link to this repository when sharing or adapting it. The scripts are licensed under [MIT](scripts/LICENSE).
+The model, modeling references, component exports, and preview renders are licensed under [Creative Commons Attribution 4.0 International](LICENSE.md). Credit the project as **Crimson Chibi** and link to this repository when sharing or adapting it. The scripts are licensed under [MIT](scripts/LICENSE).
