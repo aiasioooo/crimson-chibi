@@ -1,0 +1,22 @@
+# Publish only the model, exports, documentation, and selected previews.
+*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSE.md
+!/CHANGELOG.md
+!/crimson_chibi.blend
+!/crimson_chibi.glb
+!/parts/
+!/parts/*.glb
+!/parts/components.json
+!/renders/
+!/renders/crimson_chibi_front.png
+!/references/
+!/references/reference_front.png
+!/references/reference_pose.png
+!/references/reference_rear.png
+!/scripts/
+!/scripts/export.py
+!/scripts/render_preview.py
+!/scripts/LICENSE
